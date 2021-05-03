@@ -9,7 +9,19 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     </head>
-    <body>
-
+    <body class="body_hide">
+        <div class='main-block'>
+            <img class='image' src="python.png">
+            <div class='info'>
+                <h1>Hello, world</h1>
+                <p>This is my first Flask application.</p>
+                <p>View more on: <span><a href='https://github.com/temryakov'>github.com/temryakov</a></span></p>
+            </div>
+        </div>
+        <script>
+            setTimeout(function(){
+                document.body.classList.add('body_visible');
+            }, 200);
+        </script>
     </body>
 </html>
