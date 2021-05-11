@@ -1,3 +1,2 @@
 # flask-app
-This is my first Flask application
-https://temryakov.github.io/flask-app/
+First flask application with connected HTML and CSS via Jinja 
